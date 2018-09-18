@@ -16,7 +16,11 @@ namespace ConsoleApplication3
            string DecryptedXML = DecryptXMLFile(@"D:\Build_Area_YahooBackup\Binaries\XML\Writer.xml");
             File.WriteAllText(@"X:\Sources\Release\GmailBackupLatest\bin\x86\Debug\XML\WriterDeCrypted.xml", DecryptedXML);
         }
-     
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="p_FilePath"></param>
+        /// <returns></returns>
         public static String DecryptXMLFile(String p_FilePath)
         {
             String decryptedFile = String.Empty;
